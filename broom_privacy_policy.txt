@@ -1,0 +1,142 @@
+# Privacy Policy for Vix Cleaning App
+
+**Last Updated:** December 25, 2025
+
+## Introduction
+
+Vix ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use our cleaning service booking application.
+
+## Information We Collect
+
+### Camera Permission
+
+Our app requests camera permission to allow you to:
+- Take photos of your property when creating a cleaning service request
+- Upload a profile picture for your account
+- Add photos to saved addresses for future reference
+
+### How We Use Camera Data
+
+Photos captured through the camera are used solely for:
+- **Property Photos**: Helping cleaners understand the scope of work by viewing photos of the property before accepting a job
+- **Profile Pictures**: Displaying your identity within the app
+- **Address Documentation**: Storing photos associated with saved addresses for your convenience
+
+### Data Storage
+
+- Photos are stored securely in Firebase Cloud Storage
+- Only authenticated users can access the app and upload photos
+- Property photos are visible to cleaners evaluating job requests
+- Profile pictures are visible to other users you interact with (customers/cleaners)
+- You retain full control over your photos and can delete them at any time
+
+### User Control
+
+You can:
+- Delete property photos from your addresses at any time
+- Remove job-specific photos before posting a cleaning request
+- Change or remove your profile picture
+- Delete your entire account and associated data upon request
+
+## Camera Permission Usage
+
+We request camera permission specifically for:
+1. **Profile Photo Upload**: Taking or selecting photos for your user profile
+2. **Property Photos**: Documenting properties when booking cleaning services
+3. **Address Photos**: Saving property images to reusable address entries
+
+**We DO NOT:**
+- Access your camera without your explicit action (tapping camera/photo buttons)
+- Store photos without your knowledge
+- Use photos for any purpose other than the cleaning service functionality
+- Share photos with third parties outside of the app's core functionality (cleaners viewing job requests)
+- Use photos for advertising or marketing purposes
+
+## Data Retention
+
+- Photos remain in storage as long as:
+  - The associated job, address, or profile is active
+  - You choose to keep them
+- You can delete photos at any time through the app interface
+- Deleted photos are permanently removed from our servers
+
+## Third-Party Services
+
+We use Firebase (Google Cloud Platform) for:
+- Cloud Storage (photo storage)
+- Authentication
+- Database services
+
+Firebase's privacy policy can be found at: https://firebase.google.com/support/privacy
+
+## Children's Privacy
+
+Our service is not intended for users under the age of 18. We do not knowingly collect personal information from children under 18.
+
+## Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
+
+## Data Security
+
+We implement appropriate security measures to protect your photos and personal information:
+- Encrypted transmission (HTTPS/TLS)
+- Secure cloud storage with Firebase
+- Access controls and authentication requirements
+- Regular security updates
+
+## Your Rights
+
+You have the right to:
+- Access your personal data
+- Request correction of your data
+- Request deletion of your data
+- Withdraw consent for camera usage (via device settings)
+- Object to data processing
+
+## Contact Us
+
+If you have questions about this Privacy Policy or our data practices, please contact us at:
+
+**Email:** [Your support email]
+**Address:** [Your business address if applicable]
+
+## Consent
+
+By using our app and granting camera permissions, you consent to the collection and use of photos as described in this Privacy Policy.
+
+---
+
+## Detailed Camera Permission Explanation
+
+### When We Access Your Camera
+
+The app will request camera access only when you explicitly:
+1. Tap the "Add Photo" button when creating/editing a property address
+2. Tap the "Add Photo" button when posting a cleaning job
+3. Tap the camera icon to change your profile picture
+4. Choose "Camera" option in photo source dialogs
+
+### What Happens to Your Photos
+
+1. **Upload Process**:
+   - Photo is captured or selected by you
+   - Photo is uploaded to secure Firebase Cloud Storage
+   - A secure URL is generated and stored in our database
+   - Photo becomes accessible based on its context (profile, address, or job)
+
+2. **Access Control**:
+   - Profile photos: Visible to users you interact with
+   - Address photos: Only visible to you and cleaners viewing your job posts
+   - Job photos: Visible to cleaners evaluating that specific job request
+
+3. **Deletion**:
+   - You can delete any photo you've uploaded
+   - Deleting a job or address also deletes associated photos
+   - Photos are permanently removed from storage when deleted
+
+### Revoking Camera Permission
+
+You can revoke camera permission at any time through your device settings:
+- **Android**: Settings → Apps → Vix → Permissions → Camera → Deny
+- After revoking, you can still use the app but won't be able to take new photos (you can still select from gallery if that permission is granted)
